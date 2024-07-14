@@ -189,7 +189,7 @@ const Lecture = ({ user }) => {
                         src={`${server}/${lecture.video}`}
                         width={"100%"}
                         controls
-                        controlsList="nodownload noremoteplayback"
+                        controlsList="noremoteplayback"
                         disablePictureInPicture
                         disableRemotePlayback
                         autoPlay
